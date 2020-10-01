@@ -1,0 +1,19 @@
+n=6
+fib=[1,1]
+a=1
+b=1
+c=0
+for i in range(0,50):
+    c=a+b
+    b=a
+    a=c
+    fib.append(c)
+i=0
+c=0
+sum=0
+while(c!=n):
+    if((fib[i]%2)==1):
+        sum+=fib[i]
+        c+=1
+    i+=1
+print(sum)
