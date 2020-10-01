@@ -4,6 +4,7 @@ a1=list(s1)
 a2=list(s2)
 a1.sort()
 a2.sort()
+print("anagram program")
 print(a1,a2)
 flag=0
 for i in range(0,len(a1)):
