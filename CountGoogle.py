@@ -1,4 +1,5 @@
 s="google"
+print("Program to count letters GOOGLE")
 a=list(s)
 b=set(a)
 c=list(b)
