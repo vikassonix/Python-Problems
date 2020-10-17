@@ -1,4 +1,5 @@
 s="google"
+print("counting google")
 a=list(s)
 b=set(a)
 c=list(b)
